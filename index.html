@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <header class="portfolio-cabecalho"> 
+            <a href="#port" class="escrita-portifolio">Portfólio</a>
+            <nav class="cabecalho-menu">
+                <a href="#corpo-secundario" class="cabecalho-menu-item">Sobre mim</a>
+                <a href="#corpo-secundario-projeto" class="cabecalho-menu-item">Projetos</a>
+                <a href="#corpo-secundario-projeto-skills" class="cabecalho-menu-item">Skills</a>
+                <a href="#contatos" class="cabecalho-menu-item">contato</a>
+
+            </nav>
+        </header>
+        
+        <main class="corpo">
+            <section id=port class="corpo-principal">
+                <div class="corpo-principal-escrito">
+                    <p class="ola"> Bem-vindos, eu sou</p>
+                    <h1 class="sou-eu">Pablo Souza.</h1>
+                    <h2 class="dev">Desenvolvedor Web Full Stack</h2>
+                    <a download="currilum" href="./file/Currículo-Pablo.docx">
+                        <button class="botao"> 
+                            Download CV
+                        </button>
+                    </a>  
+                    
+                </div>
+                <div>
+                    <img class="imagem-corpo" src="./img/astronauta.png" alt="img de apresentação">
+                </div>
+            
+            </section>
+            
+            <section id="corpo-secundario" class="corpo-secundario">
+                <h3 class="corpo-secundario-titulo">Sobre mim</h3>
+                <p class="secundario">Meu nome é Pablo Souza conhecido como Blinhão</p>
+                <p class="secundario">Tenho 25 anos e moro em Bauru-sp</p>
+                <p class="secundario">Atualmente trabalho com vendas de maquinas</p>
+                <p class="secundario">Estou cursando Desenvolvimento Web full stack na Blueedtech</p>
+                
+            </section>
+            
+            <section id="corpo-secundario-projeto" class="links-projetos">
+                <h3 class="projetos">Meus Projetos</h3>
+
+                <section class="cards-list">
+                    <a  href="https://github.com/Pabloblinhao/Projeto01/blob/master/Projeto01.js" target="_blank">
+                        <section class="caixas-projetos">
+                            <h3>Jornada do Heroi</h3>
+                        
+                        </section>
+                    </a>
+                    
+                    <a href="https://github.com/Pabloblinhao/Jokenpo/blob/master/jokenpo.js" target="_blank">
+                        <section class="caixas-projetos">
+                            <h3>Jokenpô</h3>
+                        
+                        </section>
+                    </a>
+                    <a href="https://github.com/Pabloblinhao/Projeto4/blob/main/projeto4.js" target="_blank">
+                        <section class="caixas-projetos">
+                            <h3>Jogo da Ficção Interativa</h3>
+                    
+                        </section>
+                    </a>
+                </section>
+            </section>
+            
+            
+            <section id=corpo-secundario-projeto-skills>
+                <h3 class="skills">Minhas Skills</h3>
+                <div id="text-skils">
+
+                </div>
+                <section class="todas-skills">
+                    <img class="imagem-html" onmouseover="changeHtml()" src="./img/html.png" alt="img skills">
+                    <img class="imagem-css" onmouseover="changeCss()" src="./img/css.png" alt="img skills">
+                    <img class="imagem-java" onmouseover="changeJS()" src="./img/java.png" alt="img skills">
+                </section>    
+
+            </section>
+        
+        </main>
+
+        <footer id="contatos">
+            <section>
+                <a href="https://github.com/Pabloblinhao/" target="_blank">
+                    <img class="git-foot" src="./img/git.png" alt="img de apresentação">
+                </a>
+                <a href="https://www.linkedin.com/in/pablo-souza-985132241" target="_blank">
+                    <img class="link-foot" src="./img/linkedin.png" alt="img de apresentação">
+                </a>
+                
+            </section>
+            <p class="meu-site">© 2022 pablosou.com</p>
+        </footer>
+
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>
